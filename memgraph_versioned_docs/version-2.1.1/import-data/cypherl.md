@@ -71,7 +71,7 @@ The advantage of using this system to import data is you need only one file to
 cover both nodes and relationships. The disadvantage of this method is that you
 need to write the queries for creating nodes and relationships yourself. If you
 haven't written any queries yet, we highly suggest you check our [Cypher
-manual](/cypher-manual).
+manual](https://memgraph.com/docs/cypher-manual).
 
 ### One type of nodes and relationships
 

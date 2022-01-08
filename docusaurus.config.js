@@ -26,9 +26,9 @@ module.exports = {
   themeConfig: {
     metadata: [
       {
-        property: "og:image",
+        name: "robots",
         content:
-          "https://public-assets.memgraph.com/github-readme-images/docs.memgraph-browser.png",
+          "noindex",
       },
     ],
     navbar: {
@@ -66,90 +66,28 @@ module.exports = {
             },
           ],
         },
-        {
-          to: "/memgraph-lab/",
-          label: "Memgraph Lab",
-          position: "left",
-          activeBaseRegex: `/lab/`,
-        },
         /*
         {
-          to: '/memgraph-cloud/',
-          label: 'Memgraph Cloud',
-          position: 'left',
-          activeBaseRegex: `/cloud/`,
+          to: "https://memgraph.com/docs/memgraph-lab/",
+          label: "Memgraph Lab",
+          position: "left",
         },
-        */
         {
-          to: "/mage",
+          to: "https://memgraph.com/docs/mage",
           label: "MAGE",
           position: "left",
-          activeBaseRegex: `/mage/`,
-          items: [
-            {
-              label: "Overview",
-              to: "/mage",
-            },
-            {
-              label: "Installation",
-              to: "/mage/installation",
-            },
-            {
-              label: "Using query modules",
-              to: "/mage/usage/calling-procedures",
-            },
-            {
-              label: "How-to guides",
-              to: "/mage/how-to-guides/create-a-new-module-python",
-            },
-            {
-              label: "Algorithms",
-              to: "/mage/algorithms/traditional-graph-analytics/betweenness-centrality-algorithm",
-            },
-            {
-              label: "Use cases",
-              to: "/mage/use-cases/bioinformatics",
-            },
-            {
-              label: "Contributing",
-              to: "/mage/contributing",
-            },
-          ],
         },
         {
-          to: "/cypher-manual/",
+          to: "https://memgraph.com/docs/cypher-manual/",
           label: "Cypher manual",
           position: "left",
-          activeBaseRegex: `/cypher-manual/`,
-          items: [
-            {
-              label: "Overview",
-              to: "/cypher-manual/",
-            },
-            {
-              label: "Functions",
-              to: "/cypher-manual/functions",
-            },
-            {
-              label: "Clauses",
-              to: "/cypher-manual/clauses",
-            },
-            {
-              label: "Other features",
-              to: "/cypher-manual/other-features",
-            },
-            {
-              label: "Differences",
-              to: "/cypher-manual/differences",
-            },
-          ],
         },
         {
-          to: "/help-center",
+          to: "https://memgraph.com/docs/help-center",
           label: "Help Center",
           position: "left",
-          activeBaseRegex: `/help-center/`,
         },
+        */
         {
           type: "docsVersionDropdown",
           docsPluginId: "memgraph",
@@ -174,21 +112,15 @@ module.exports = {
             },
             {
               label: "Memgraph Lab",
-              to: "/memgraph-lab",
+              to: "https://memgraph.com/docs/memgraph-lab/",
             },
-            /*
-            {
-              label: 'Memgraph Cloud',
-              to: '/memgraph-cloud',
-            },
-            */
             {
               label: "Cypher manual",
-              to: "/cypher-manual",
+              to: "https://memgraph.com/docs/cypher-manual/",
             },
             {
               label: "MAGE",
-              to: "/mage",
+              to: "https://memgraph.com/docs/mage",
             },
           ],
         },
@@ -234,11 +166,6 @@ module.exports = {
       },
       copyright: `Copyright © ${new Date().getFullYear()} Memgraph. Built by developers, for developers!`,
     },
-    algolia: {
-      apiKey: "05acf33bff73974c131732d34307085e",
-      indexName: "g-despot",
-      contextualSearch: true,
-    },
     prism: {
       additionalLanguages: ["cypher", "php", "rust", "csharp", "java", "docker"],
     },
@@ -246,7 +173,7 @@ module.exports = {
     announcementBar: {
       id: "app-challenge",
       content:
-        '🏆 Keep Rockin’ & Start Coding! Register and win $2,000! <a target="_blank" rel="noopener noreferrer" href="https://memgraph.com/memgraph-app-challenge"><b>Join the challenge</b></a> 🏆',
+        'Visit the up-to-date documentation on <a target="_blank" rel="noopener noreferrer" href="https://memgraph.com/docs"><b>https://memgraph.com/docs</b></a>',
       backgroundColor: "#fafbfc",
       textColor: "#091E42",
       isCloseable: true,
@@ -262,11 +189,7 @@ module.exports = {
           routeBasePath: "memgraph",
           sidebarPath: require.resolve("./sidebars/sidebarsMemgraph.js"),
           editUrl: "https://github.com/memgraph/docs/tree/master/",
-          versions: {
-            current: {
-              label: `Unreleased 🚧`,
-            },
-          },
+          includeCurrentVersion: false,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),
@@ -275,67 +198,7 @@ module.exports = {
     ],
   ],
   plugins: [
-    "docusaurus-plugin-sass",
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "lab",
-        path: "lab",
-        routeBasePath: "memgraph-lab",
-        sidebarPath: require.resolve("./sidebars/sidebarsLab.js"),
-        editUrl: "https://github.com/memgraph/docs/tree/master/",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "cloud",
-        path: "cloud",
-        routeBasePath: "memgraph-cloud",
-        sidebarPath: require.resolve("./sidebars/sidebarsCloud.js"),
-        editUrl: "https://github.com/memgraph/docs/tree/master/",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "cypher-manual",
-        path: "cypher-manual",
-        routeBasePath: "cypher-manual",
-        sidebarPath: require.resolve("./sidebars/sidebarsCypherManual.js"),
-        editUrl: "https://github.com/memgraph/docs/tree/master/",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "mage",
-        path: "mage",
-        routeBasePath: "mage",
-        sidebarPath: require.resolve("./sidebars/sidebarsMAGE.js"),
-        editUrl: "https://github.com/memgraph/docs/tree/master/",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "help-center",
-        path: "help-center",
-        routeBasePath: "help-center",
-        sidebarPath: require.resolve("./sidebars/sidebarsHelpCenter.js"),
-        editUrl: "https://github.com/memgraph/docs/tree/master/",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "errors",
-        path: "errors",
-        routeBasePath: "errors",
-        sidebarPath: require.resolve("./sidebars/sidebarsErrors.js"),
-        editUrl: "https://github.com/memgraph/docs/tree/master/",
-      },
-    ],
+    "docusaurus-plugin-sass"
   ],
   clientModules: [require.resolve("./src/components/analyticsCall.js")],
 };

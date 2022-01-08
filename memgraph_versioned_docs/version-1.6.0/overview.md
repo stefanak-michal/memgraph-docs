@@ -20,7 +20,7 @@ Development, Testing, and Evaluation Use                                |     + 
 Production use                                                          |     +     |     +
 [Replication](/database-functionalities/replication.md)                 |     +     |     +
 [Custom Cypher procedures](/reference-guide/query-modules/overview.md)  |     +     |     +
-[Custom graph algorithms](/mage)                                        |     +     |     +
+[Custom graph algorithms](https://memgraph.com/docs/mage)                                        |     +     |     +
 [Importing data](/import-data/overview.md)                              |     +     |     +
 [Authentication](/database-functionalities/manage-users-using-ldap.md)              |           |     +
 [Advanced Password Policies](/database-functionalities/manage-user-privileges.md)   |           |     +

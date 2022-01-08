@@ -9,10 +9,7 @@ export default function Hero() {
             <Container>
                 <div className={styles.heroInner}>
                     <div>
-                        <h1>Memgraph Documentation
-                            & User Guides</h1>
-                        <p>Explore our guides, samples and references to analyze
-                            your data with Memgraph</p>
+                        <h1>Memgraph Documentation Archive</h1>
                     </div>
                     <div>
                         <div className={styles.heroImg}>

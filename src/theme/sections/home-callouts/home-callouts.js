@@ -24,31 +24,31 @@ export default function HomeCallouts() {
             title: 'MAGE graph library',
             subtitle: 'Run graph algorithms on real-time data - Stream processing with the power of graph analytics.',
             urlText: 'Get Started with MAGE',
-            url: useBaseUrl('/mage'),
+            url: 'https://memgraph.com/docs/mage',
         },
         {
             title: 'Import your data',
             subtitle: 'Import data into Memgraph using streaming data sources, CSV files, or Cypher commands.',
             urlText: 'Gather all your data in one place',
-            url: useBaseUrl('/memgraph/import-data'),
+            url: 'https://memgraph.com/docs/memgraph/import-data',
         },
         {
             title: 'Connect to Memgraph',
             subtitle: 'Connect to Memgraph with your preferred programming language, via CLI console or the Memgraph Lab GUI.',
             urlText: 'Start exploring your data',
-            url: useBaseUrl('/memgraph/connect-to-memgraph'),
+            url: 'https://memgraph.com/docs/memgraph/connect-to-memgraph',
         },
         {
             title: 'Query, analyze & visualize the data',
             subtitle: 'Use Memgraph Lab to visualize, query, and interact with your data.',
             urlText: 'Get Started with Memgraph Lab',
-            url: useBaseUrl('/memgraph-lab'),
+            url: 'https://memgraph.com/docs/memgraph-lab',
         },
         {
             title: 'Cypher Manual',
             subtitle: 'Start learning the Cypher query language and analyze your data.',
             urlText: 'Start learning Cypher',
-            url: useBaseUrl('/cypher-manual'),
+            url: 'https://memgraph.com/docs/cypher-manual',
         }
     ]
     return (

@@ -11,7 +11,7 @@ import HomeGetInvolved from "../theme/sections/home-get-involved/home-get-involv
 function Home() {
     const context = useDocusaurusContext();
     const {siteConfig: {customFields = {}, tagline} = {}} = context;
-    const title = "Memgraph Documentation & User Guides"
+    const title = "Memgraph Documentation Archive"
     return (
         <Layout
             permalink="/"

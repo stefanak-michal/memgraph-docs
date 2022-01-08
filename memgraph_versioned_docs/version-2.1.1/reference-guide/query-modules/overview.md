@@ -26,5 +26,5 @@ You can also check out detailed descriptions of the query modules API:
 The open-source repository **MAGE (Memgraph
 Advanced Graph Extensions)** contains all currently implemented query modules.
 For more information on all the graph algorithms that are available and
-installation instructions, check out the **[MAGE documentation](/mage)** page.
+installation instructions, check out the **[MAGE documentation](https://memgraph.com/docs/mage)** page.
 :::

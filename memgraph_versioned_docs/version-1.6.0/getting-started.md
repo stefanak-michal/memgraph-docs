@@ -10,7 +10,7 @@ We recommend exploring some of these topics to get acquainted with Memgraph:
 * **[Install Memgraph](/installation/overview.md)** or try out **[Memgraph Cloud](https://cloud.memgraph.com)**
 * **[Import data](/import-data/overview.md)** into Memgraph
 * Learn how to **[connect to Memgraph](/connect-to-memgraph/overview.md)**
-* Play with the Cypher language in **[Memgraph Playground](https://playground.memgraph.com/)** or visit our **[Cypher manual](/cypher-manual)**.
+* Play with the Cypher language in **[Memgraph Playground](https://playground.memgraph.com/)** or visit our **[Cypher manual](https://memgraph.com/docs/cypher-manual)**.
 * Build an application with Memgraph in one of our supported languages and frameworks
     * **[Python](/connect-to-memgraph/methods/building-applications/python.md)**
     * **[Rust](/connect-to-memgraph/methods/building-applications/rust.md)**

@@ -12,7 +12,7 @@ slug: /getting-started
 * [Stay updated](/memgraph/changelog)
 
 ### Online playground (sandbox)
-If you're interested in trying out Memgraph from the comfort of your browser, you can do so on [Memgraph Playground](https://playground.memgraph.com/) or by visiting the [Cypher manual](/cypher-manual).
+If you're interested in trying out Memgraph from the comfort of your browser, you can do so on [Memgraph Playground](https://playground.memgraph.com/) or by visiting the [Cypher manual](https://memgraph.com/docs/cypher-manual).
 
 ### Step by step guide
 If you enjoy learning concepts in small chunks before applying them in practice, our [step by step guide](/memgraph/tutorials) is the best place to start.

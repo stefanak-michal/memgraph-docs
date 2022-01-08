@@ -97,7 +97,7 @@ navigate to the `Datasets` tab in the sidebar. From there, choose the dataset
 
 ## Example queries using Cypher
 
-In the queries below, we are using [Cypher](/cypher-manual) to query Memgraph
+In the queries below, we are using [Cypher](https://memgraph.com/docs/cypher-manual) to query Memgraph
 via the console.
 
 Now when we have a dataset of football transfers from season 1992/1993 to season

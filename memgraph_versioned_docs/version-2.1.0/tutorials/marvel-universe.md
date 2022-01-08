@@ -78,7 +78,7 @@ navigate to the `Datasets` tab in the sidebar. From there, choose the dataset
 
 ## Example queries using Cypher
 
-In the queries below, we are, as usual, using [Cypher](/cypher-manual) to query
+In the queries below, we are, as usual, using [Cypher](https://memgraph.com/docs/cypher-manual) to query
 Memgraph via the console.
 
 Here are some queries you might find interesting:

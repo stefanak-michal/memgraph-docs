@@ -23,7 +23,7 @@ shortest path**.
 Memgraph can be configured by editing the Memgraph configuration file or by
 including another configuration file.
 
-## [Cypher query language](/cypher-manual)
+## [Cypher query language](https://memgraph.com/docs/cypher-manual)
 
 **Cypher** is a declarative graph query language that allows for expressive and
 efficient data querying in a property graph. It aims to be intuitive and easy to

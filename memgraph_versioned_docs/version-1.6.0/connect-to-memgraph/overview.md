@@ -17,7 +17,7 @@ There are multiple ways of executing openCypher queries against Memgraph and you
 
 Memgraph supports three main options for querying the platform:
 * **[mgconsole](/connect-to-memgraph/methods/mgconsole.md)**: A command-line interface for querying Memgraph.
-* **[Memgraph Lab](/memgraph-lab)**: An interactive GUI application for querying and visualizing your graphs.
+* **[Memgraph Lab](https://memgraph.com/docs/memgraph-lab/)**: An interactive GUI application for querying and visualizing your graphs.
 * **[Programatically - Drivers](/connect-to-memgraph/methods/drivers.md)**: Connect to Memgraph from your favorite programming language. We support a wide range of drivers.
 
 ## Telemetry
@@ -40,6 +40,6 @@ To learn more about telemetry in Memgraph, visit the [concept page](/concepts/te
 
 ## Where to next?
 
-To learn more about the **Cypher** language, visit the **[Cypher manual](/cypher-manual)** or **[Memgraph Playground](https://playground.memgraph.com/)** for interactive guides.
+To learn more about the **Cypher** language, visit the **[Cypher manual](https://memgraph.com/docs/cypher-manual)** or **[Memgraph Playground](https://playground.memgraph.com/)** for interactive guides.
 For real-world examples of how to use Memgraph, we strongly suggest going through one of the available **[Tutorials](/tutorials/overview.md)**.
 Details on what can be stored in Memgraph can be found in the article about **[Data storage](/concepts/storage.md)**.

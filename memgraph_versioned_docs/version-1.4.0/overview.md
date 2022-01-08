@@ -38,7 +38,7 @@ Visit the [Installation](/getting-started/installation.md) guide to find out mor
 
 Memgraph uses the openCypher query language. Learn how to query Memgraph:
 * within the **command-line** by visiting the [Querying](./getting-started/querying/querying.md) guide or
-* visually by following the [Quick start: Memgraph Lab](/memgraph-lab) guide.
+* visually by following the [Quick start: Memgraph Lab](https://memgraph.com/docs/memgraph-lab/) guide.
 
 ### Importing data
 

@@ -87,4 +87,4 @@ to find out more about creating indexes.
 
 Although we try to implement openCypher query language as closely to the
 language reference as possible, we had to make some changes to enhance the
-user experience. You can find the differences listed in the [Cypher manual](/cypher-manual/differences).
+user experience. You can find the differences listed in the [Cypher manual](https://memgraph.com/docs/cypher-manual/differences).

@@ -31,7 +31,7 @@ Memgraph](/connect-to-memgraph/overview.mdx). You can connect to Memgraph using
 language. If you are a command line fan, you can use
 [mgconsole](/connect-to-memgraph/methods/mgconsole.md) for querying. If you
 prefer to do things in a visual way, go ahead and use [Memgraph
-Lab](/memgraph-lab). The choice is up to you!
+Lab](https://memgraph.com/docs/memgraph-lab/). The choice is up to you!
 
 ### 3. Import data
 
@@ -53,7 +53,7 @@ them if you feel like it.
 
 If you're interested in trying out Memgraph from the comfort of your browser,
 you can do so on [Memgraph Playground](https://playground.memgraph.com/) or by
-visiting the [Cypher manual](/cypher-manual).
+visiting the [Cypher manual](https://memgraph.com/docs/cypher-manual).
 
 ### Step by step guide
 

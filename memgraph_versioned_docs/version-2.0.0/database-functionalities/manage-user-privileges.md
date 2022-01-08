@@ -74,7 +74,7 @@ We could naturally cluster those privileges into groups:
   * Privilege to configure Memgraph during runtime (`CONFIG`)
 
 If you are unfamiliar with any of these commands, you can look them up in our
-[Cypher manual](/cypher-manual).
+[Cypher manual](https://memgraph.com/docs/cypher-manual).
 
 Similarly, the complete list of commands which can be executed under `AUTH`
 privilege can be viewed in the

@@ -18,5 +18,5 @@ You can also check out detailed descriptions of the query modules API:
 * **[C API](/reference-guide/query-modules/api/c-api.md)**
 
 :::info Available Query Modules
-The open-source repository **MAGE (Memgraph Advanced Graph Extensions)** contains all currently implemented query modules. For more information on all the graph algorithms that are available and installation instructions, check out the **[MAGE documentation](/mage)** page.
+The open-source repository **MAGE (Memgraph Advanced Graph Extensions)** contains all currently implemented query modules. For more information on all the graph algorithms that are available and installation instructions, check out the **[MAGE documentation](https://memgraph.com/docs/mage)** page.
 :::

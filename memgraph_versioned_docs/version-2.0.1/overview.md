@@ -2,7 +2,7 @@
 id: overview
 title: Memgraph
 sidebar_label: Overview
-slug: /overview-page
+slug: /
 ---
 
 Memgraph is a graph analytics platform based on an ACID-compliant high-performance
@@ -20,7 +20,7 @@ Development, Testing, and Evaluation Use                                |     + 
 Production use                                                          |     +     |     +
 [Replication](/database-functionalities/replication.md)                 |     +     |     +
 [Custom Cypher procedures](/reference-guide/query-modules/overview.md)  |     +     |     +
-[Custom graph algorithms](/mage)                                        |     +     |     +
+[Custom graph algorithms](https://memgraph.com/docs/mage)                                        |     +     |     +
 [Importing data](/import-data/overview.mdx)                              |     +     |     +
 [Authentication](/database-functionalities/manage-users-using-ldap.md)              |           |     +
 [Advanced Password Policies](/database-functionalities/manage-user-privileges.md)   |           |     +
