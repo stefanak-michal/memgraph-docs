@@ -3,7 +3,7 @@ const baseUrl = "/docs/";
 module.exports = {
   title: "Memgraph Docs",
   tagline: "Welcome to the Memgraph Docs site!",
-  url: "https://memgraph.com",
+  url: "https://memgraph-docs-archive.netlify.app",
   baseUrl,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
